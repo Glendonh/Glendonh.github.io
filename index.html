@@ -114,46 +114,92 @@
 					</div>
 				</div>
 			</div>
-		<div>
-		<div class="jumbotron jumbotron-fluid py-2 mb-0">
-			<div class="container">
-				<h1 class="display-4">General Skills</h1>
-			</div>
-		</div>
-		<div class="card-deck py-2">
-			<div class="card text-white bg-dark mb-3" style="max-width: 20rem;">
-				<h4 class="card-header">Sales</h4>
-				<div class="card-body">
-					<p class="card-text">My success in sales required the ability to communicate concepts clearly, consistent attention to detail, and the ability to be self-motivated.</p>
-				</div>
-			</div>
-			<div class="card text-white bg-dark mb-3" style="max-width: 20rem;">
-				<h4 class="card-header">Customer Service</h4>
-				<div class="card-body">
-					<p class="card-text">Demonstrated the ability to understand client needs, professionalism, and the ability to mult-task in a high pressure environment.</p>
-				</div>
-			</div>
-			<div class="card text-white bg-dark mb-3" style="max-width: 20rem;">
-				<h4 class="card-header">Management</h4>
-				<div class="card-body">
-					<p class="card-text">I have overseen the scheduling and work assignments for upwards of ten part-time employees.</p>
-				</div>
-			</div>
-			<div class="card text-white bg-dark mb-3" style="max-width: 20rem;">
-				<h4 class="card-header">Team Experience</h4>
-				<div class="card-body">
-					<p class="card-text">During my time in the sports world, both as an athlete and in ticket offices I learned that I thrive in a collaborative team environemt.</p>
-				</div>
-			</div>
-		</div>
+        </div>
+        <div class="jumbotron jumbotron-fluid py-2 mb-0">
+            <div class="container">
+                <h1 class="display-4">General Skills</h1>
+            </div>
+        </div>
+        <div class="container-fluid skills">
+            <div class="card-deck py-2">
+                <div class="card text-white bg-dark mb-3" style="max-width: 20rem;">
+                    <h4 class="card-header">Sales</h4>
+                    <div class="card-body">
+                        <p class="card-text">My success in sales required the ability to communicate concepts clearly, consistent attention to detail, and the ability to be self-motivated.</p>
+                    </div>
+                </div>
+                <div class="card text-white bg-dark mb-3" style="max-width: 20rem;">
+                    <h4 class="card-header">Customer Service</h4>
+                    <div class="card-body">
+                        <p class="card-text">Demonstrated the ability to understand client needs, professionalism, and the ability to mult-task in a high pressure environment.</p>
+                    </div>
+                </div>
+                <div class="card text-white bg-dark mb-3" style="max-width: 20rem;">
+                    <h4 class="card-header">Management</h4>
+                    <div class="card-body">
+                        <p class="card-text">I have overseen the scheduling and work assignments for upwards of ten part-time employees.</p>
+                    </div>
+                </div>
+                <div class="card text-white bg-dark mb-3" style="max-width: 20rem;">
+                    <h4 class="card-header">Team Experience</h4>
+                    <div class="card-body">
+                        <p class="card-text">During my time in the sports world, both as an athlete and in ticket offices I learned that I thrive in a collaborative team environemt.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 		<!-- /Skills -->
+        <!-- Projects-->
+        <div class="jumbotron jumbotron-fluid py-2 mb-0" id="portfolio">
+            <div class="container">
+                <h1 class="display-4">Projects</h1>
+            </div>
+        </div>
+      <div class="container-fluid skills">
+          <div class="card-deck py-2">
+              <div class="card">
+					<img class="card-img-top" src="./img/PodcastIndex.png" alt="Card image cap">
+					<div class="card-body">
+						<h4 class="card-title">Tech Academy Podcast</h4>
+						<a class="btn btn-outline-primary collapsed" data-toggle="collapse" href="#collapsePodcase" aria-expanded="false" aria-controls="collapseOne">
+							Details
+						</a>
+                        <a class="btn btn-primary" href="https://learncodinganywhere.com/Podcasts" target="_blank">
+                            See it Live
+                        </a>
+						<div id="collapsePodcase" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+							<p>I implemented the podcast section of the Tech Academy site. I built the model, scaffolded the controller and refined the views. I also built a Manager view for the Marketing Director to allow for user friendly CRUD functionality.<p>
+						</div>
+					</div>
+				</div>
+              <div class="card">
+					<img class="card-img-top" src="./img/BlogIndex.png" alt="Card image cap">
+					<div class="card-body">
+						<h4 class="card-title">Tech Academy Blog</h4>
+						<a class="btn btn-outline-primary collapsed" data-toggle="collapse" href="#collapseBlog" aria-expanded="false" aria-controls="collapseOne">
+							Details
+						</a>
+                        <a class="btn btn-primary" href="https://learncodinganywhere.com/BlogPosts" target="_blank">
+                            See it Live
+                        </a>
+						<div id="collapseBlog" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+							<p>I implemented the Blog section of the Tech Academy website. I built models and scaffolded controllers for blog posts and comments. I refined the views. I built Manager views for the Marketing Director to allow for user friends CRUD functionality. I built the single blog Reader view including comment posting and verification.<p>
+						</div>
+					</div>
+				</div>
+          </div>
+      </div>
+        <!-- /Projects-->
 		<!-- Portfolio/Contact -->
-			<div class="container-fluid row" id="portfolio">
+			<div class="container-fluid skills">
+                <div class="row">
 				<a href="https://github.com/Glendonh" class="btn btn-primary btn-lg active mx-auto my-auto" role="button" aria-pressed="true">GitHub</a>
 				<a href="https://www.linkedin.com/in/glendon-hardin-14598a5/" class="btn btn-primary btn-lg active mx-auto my-auto" role="button" aria-pressed="true">LinkedIn</a>
+                    </div>
+            </div>
 		<!-- /Portfolio/Contact -->
 		<!-- Footer -->
-			<div class="container-fluid text-center">
+			<div class="container-fluid text-center skills">
 				<small>Glendon Hardin 2017</small>
 			</div>
 		<!-- /Footer -->
