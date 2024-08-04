@@ -1,0 +1,19 @@
+.card-main {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  border: 2px solid #4b2e83;
+  border-radius: 1rem;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+  background-color: #a9a9a9;
+}
+
+.card-content {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  text-align: left;
+  padding-left: 0.5rem;
+  padding-top: 0.2rem;
+}

@@ -1,0 +1,27 @@
+.header {
+  background-image: url("./img/LakeWenatchee.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+  padding-top: 350px;
+  padding-bottom: 500px;
+  font-variant: small-caps;
+  color: #fff;
+  text-shadow: 1px 1px 0 #000;
+  font-family: "Arial", sans-serif;
+}
+
+h1,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 4.5rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
